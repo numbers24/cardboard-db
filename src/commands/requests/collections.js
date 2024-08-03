@@ -4,7 +4,6 @@ const { collections, cards } = require('../../comms/database');
 
 /**
  * processes all collection commands
- * TODO Clean up Code
  */
 module.exports = {
 	data: new SlashCommandBuilder()
